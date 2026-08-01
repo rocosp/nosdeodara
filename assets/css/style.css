@@ -1,8 +1,19 @@
-/* ======================================================
-   Nós de Odara
-   style.css
-   Versão 0.1.0
-====================================================== */
+/* ==========================================================
+   NÓS DE ODARA
+   ----------------------------------------------------------
+   Projeto........: Website Oficial
+   Versão.........: v0.2.1
+   Desenvolvedor..: Ronaldo Oliveira
+   Assistência....: ChatGPT (OpenAI)
+
+   Design:
+   - Minimalista
+   - Atemporal
+   - Artesanal
+   - Elegante
+   - Mobile First
+
+========================================================== */
 
 /* RESET */
 
@@ -18,20 +29,75 @@
 
 :root{
 
+    /* ======================================================
+       CORES
+    ====================================================== */
+
     --color-bg:#F5F1EA;
+
     --color-surface:#E8DED2;
+
     --color-primary:#45352D;
+
     --color-secondary:#69745C;
+
     --color-accent:#B76E4D;
+
     --color-white:#FFFFFF;
 
+    --color-text:#45352D;
+
+    --color-text-light:#6E655F;
+
+    /* ======================================================
+       LAYOUT
+    ====================================================== */
+
     --max-width:1200px;
+
     --content-width:760px;
 
-    --radius:14px;
+    /* ======================================================
+       ESPAÇAMENTOS
+    ====================================================== */
 
-    --shadow:
+    --space-xs:8px;
+
+    --space-sm:16px;
+
+    --space-md:32px;
+
+    --space-lg:64px;
+
+    --space-xl:96px;
+
+    --space-xxl:140px;
+
+    /* ======================================================
+       BORDAS
+    ====================================================== */
+
+    --radius-sm:8px;
+
+    --radius-md:14px;
+
+    --radius-lg:22px;
+
+    --radius-xl:36px;
+
+    /* ======================================================
+       SOMBRAS
+    ====================================================== */
+
+    --shadow-soft:
         0 12px 40px rgba(0,0,0,.08);
+
+    --shadow-hover:
+        0 18px 50px rgba(0,0,0,.12);
+
+    /* ======================================================
+       TRANSIÇÕES
+    ====================================================== */
 
     --transition:.35s ease;
 
@@ -49,9 +115,13 @@ body{
 
     background:var(--color-bg);
 
-    color:var(--color-primary);
+    color:var(--color-text);
 
     font-family:'Inter',sans-serif;
+
+    font-size:16px;
+
+    font-weight:400;
 
     line-height:1.7;
 
